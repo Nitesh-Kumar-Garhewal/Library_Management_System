@@ -17,7 +17,7 @@ public class DbUtil {
 		//
 		// Step1:Make Connection
 
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "Nitesh16121@#");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "", "");
 
 		System.out.println("---connected with DB");
 		return con;//valid connection
